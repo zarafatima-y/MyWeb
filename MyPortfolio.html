@@ -101,8 +101,8 @@
                 <h1>Cards With My Computer</h1>
                 <button>Python</button>
                 <p>In this Python card game, kick off with $100, guess if the next card is higher or lower, and try not to bet more than you've got. If you run out of cash, it's game over. It's a quick gamble, but all in good fun!</p>
-                <a href = "https://www.google.com/">
-                    <button class = "btn">View Live</button>
+                    <button class="btn" onclick="showMessage()">View Live</button>
+                    <a href = "https://github.com/zarafatima-y/Cards">
                     <button class = "btn">View Code</button>
                 </a>
             </div>
@@ -201,6 +201,10 @@ document.getElementById('form')
       alert(JSON.stringify(err));
     });
 });
+
+function showMessage() {
+        alert("There is no live code for this project.");
+    }
 </script>
 
 
